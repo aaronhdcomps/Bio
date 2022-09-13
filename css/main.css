@@ -5,6 +5,7 @@ body {
     background-color: #222222;
     line-height: 1.2em;
     margin: 1em 0em 1em;
+    width: 1280px;
 }
 header {
     padding: 1em;
@@ -13,7 +14,6 @@ header {
     background-color: #565656;
     margin: 0.6em;
     border-radius: 1.5em;
-    
 }
 header a{
     color: #ffffff;
@@ -33,6 +33,19 @@ body img{
     background-color: #565656;
     max-height: 18em;
 }
+footer{
+    font-size: 0.8em;
+    text-align: right;
+}
+.segm {
+    display: block;
+    border-style: groove;
+    border-radius: 1.5em;
+    background-color: #565656;
+    margin: 0.2em 0.8em 0.2em 20em;
+    text-align: justify;
+    padding: 0.2em 2.4em 0.8em 2.4em;
+}
 #intro {
     display: block;
     border-style: groove;
@@ -41,4 +54,10 @@ body img{
     margin: 0.2em 0.8em 0.2em 20em;
     text-align: justify;
     padding: 0.2em 2.4em 0.8em 2.4em;
+}
+#Wikilink {
+    color: #5da9ff;
+    background-color: transparent;
+}
+.emph {font-weight: bold;
 }
